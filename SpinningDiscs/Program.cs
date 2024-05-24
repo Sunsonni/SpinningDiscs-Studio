@@ -1,3 +1,10 @@
 ﻿// TODO: Declare and initialize a CD and a DVD object.
 
-// TODO: Call each CD and DVD method to verify that they work as expected.
+using SpinningDiscs;
+
+CD cd = new CD("The black parade", 1234, "CD Rom");
+DVD dvd = new DVD("Starwars", 54321, "DVD blueray");
+
+
+cd.ReadDisc();
+dvd.ReadDisc();
